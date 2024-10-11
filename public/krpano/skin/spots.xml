@@ -1,0 +1,9 @@
+<krpano>
+    <spot name="ficha1" estado="disponible" html="1" ath="164.622" atv="48.876"/>
+    <spot name="ficha2" estado="disponible" html="2" ath="173.082" atv="53.395"/>
+    <spot name="ficha3" estado="disponible" html="3" ath="152.320" atv="55.606"/>
+    <spot name="ficha4" estado="disponible" html="4" ath="170.850" atv="63.131"/>
+    <spot name="ficha5" estado="disponible" html="5" ath="162.649" atv="75.400"/>
+    <spot name="ficha6" estado="disponible" html="6" ath="86.204" atv="84.710"/>
+    <spot name="ficha7" estado="disponible" html="7" ath="6.816" atv="70.361"/>
+</krpano>
