@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../firebase/firebaseConfig'
 import { Link } from 'react-router-dom';
-import ImgLogo from '../assets/logo2.png'
+import ImgLogo from '../assets/logo-color.png'
 
 import Alerta from '../components/Alerta'
 import theme from '../constants';

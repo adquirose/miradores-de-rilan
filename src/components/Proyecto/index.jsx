@@ -1,5 +1,5 @@
 import styled from "styled-components"
-// import Logo from "../../assets/logo.png"
+import Logo from "../../assets/logo-color.png"
 
 export const ProyectoContainer = styled.div`
     max-width:520px;
@@ -33,11 +33,12 @@ const Parrafo = styled.p`
 const H2 = styled.h2`
     text-align:center;
     font-weight:normal;
+    margin-top:0;
 `
 const Proyecto = () => {
     return(
         <ProyectoContainer>
-            {/* <img src={Logo} alt="logo-proyecto" style={{width:'320px', }}/> */}
+            <img src={Logo} alt="logo-proyecto" style={{width:'240px', }}/>
             <H2>Miradores de Rilán</H2>
             <Parrafo>	
                 Exclusivas seis parcelas bordemar en la península de Rilan, 

@@ -16,6 +16,7 @@
 	<style name="skin_hotspotstyle2" scale="0.6" distorted="false" oy="0" handcursor="true" zorder="50" />
 	<textstyle name="default" font="Helvetica" fontsize.no-mobile="14" fontsize.mobile="14" bold="false" background="true" backgroundcolor="0x211915" backgroundalpha="0.667" border="true" borderwidth="2" bordercolor="0xFFFFFF" roundedge="1" textcolor="0xFFFFFF" padding="6 10" textalign="center" yoffset.no-touch="-5" yoffset.touch="-40" />
 
+	<layer name="logo" handcursor="false" url="skin/logo-blanco.png" scale="0.55" visible="true" keep="true" edge="top" align="top" x="0" y="0" />
 	<action name="startup">
 		if(startscene === null, copy(startscene,scene[0].name));
 		loadscene(get(startscene), null, MERGE);
