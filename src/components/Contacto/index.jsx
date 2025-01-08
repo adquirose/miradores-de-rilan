@@ -5,7 +5,7 @@ import { ProyectoContainer } from "../Proyecto";
 import Alerta from "../Alerta";
 import styled from "styled-components";
 import theme from "../../constants";
-import { MobileContact } from '../Icons'
+import { LogoWhatsapp, MobileContact } from '../Icons'
 
 const INITIAL_STATE = {
     nombre:'',
@@ -148,14 +148,14 @@ const Contacto = () => {
                         <Button disabled={isDisabled} type="submit"> {isLoading ? 'Enviando...' : 'Enviar'}</Button>
                     </InputLabel>
                 </Form>
-                <div style={{display:'flex', flexDirection:'row'}}>
+                <div style={{display:'flex', flexDirection:'row', justifyContent:'space-around', width:'100%'}}>
                     <div onClick={() => window.open('tel:+56981208442')} style={{display:'flex', alignItems:'center', cursor:'pointer'}}>
-                        <MobileContact width="32" height="32" strokewidth="2"/>
-                        +569 81208442     
+                        <MobileContact width="30" height="30" strokewidth="2"/>
+                        +56 9 8120 8442     
                     </div>
-                    <div onClick={() => window.open('tel:+56992243779')} style={{display:'flex', alignItems:'center', cursor:'pointer'}}>
-                        <MobileContact width="32" height="32" strokewidth="2"/>
-                        +569 92243779     
+                    <div onClick={() => window.open('https://wa.me/56931805311')} style={{display:'flex', alignItems:'center', cursor:'pointer'}}>
+                        <LogoWhatsapp width="30" height="30" strokewidth="2"/>
+                        +56 9 3180 5311    
                     </div>
                 </div>
             </ProyectoContainer>
